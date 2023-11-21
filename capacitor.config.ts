@@ -6,7 +6,10 @@ const config: CapacitorConfig = {
   webDir: 'www',
   server: {
     androidScheme: 'https'
-  }
+  },
+  android: {
+    path: 'Ruta\\Al\\Directorio\\De\\Android\\Studio'
+  },
 };
 
 export default config;
